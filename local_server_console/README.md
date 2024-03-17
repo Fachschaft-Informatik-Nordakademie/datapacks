@@ -22,9 +22,16 @@ rcon.password=sup3r s3cur3 p4ssw0rd
 ## usage
 1. make sure RCON is activated on your server
 2. create the config.json file
-3. run the [local_console.py](local_server_console/local_console.py)
-4. enter any minecraft command and see its response. A list of all the commands can be found below or [here](https://minecraft.wiki/w/Commands)
-5. enter 'exit' to stop the local console
+3. install the required packages
+~~~
+pip install -r requirements.txt
+~~~
+4. run the [local_console.py](local_server_console/local_console.py) file
+~~~
+python local_console.py
+~~~
+5. enter any minecraft command and see its response. A list of all the commands can be found below or [here](https://minecraft.wiki/w/Commands)
+6. enter 'exit' to stop the local console
 
 ## minecraft multiplayer commands
 All the executable commands. The last rows show what this command effects.
