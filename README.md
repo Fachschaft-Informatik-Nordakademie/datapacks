@@ -5,6 +5,3 @@ It consists of multiple directory's containing different projects used for this 
 ## [local_server_console](local_server_console)
 Allows you to run commands on the server using MCRcon.
 
-## [create_teams](create_teams)
-Used to automatically whitelist players and create Teams based on a JSON-File.
-
