@@ -3,20 +3,20 @@ Used to automatically whitelist players and create Teams based on a JSON-File. C
 
 ## config.json
 You need a config.json file in order to run this code. It has to look like this:
-~~~
+~~~ JSON
 {
   "mc_server_ip": "127.0.0.1",
   "mcrcon_port": 25575,
-  "mcrcon_password": "sup3r s3cur3 p4ssw0rd"
+  "mcrcon_password": "your_mcrcon_password"
 }
 ~~~
 
 ## server config
 In order to use RCON you have to activate it in your server.properties file.
-~~~
+~~~ ini
 enable-rcon=true
 rcon.port=25575
-rcon.password=sup3r s3cur3 p4ssw0rd
+rcon.password=your_mcrcon_password
 ~~~
 
 ## teams.json

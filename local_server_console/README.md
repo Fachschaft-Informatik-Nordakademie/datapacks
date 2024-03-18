@@ -3,31 +3,31 @@ Allows you to run commands on the server using RCON.
 
 ## config.json
 You need a config.json file in order to run this code. It has to look like this:
-~~~
+~~~ JSON
 {
   "mc_server_ip": "127.0.0.1",
   "mcrcon_port": 25575,
-  "mcrcon_password": "sup3r s3cur3 p4ssw0rd"
+  "mcrcon_password": "your_mcrcon_password"
 }
 ~~~
 
 ## server config
 In order to use RCON you have to activate it in your server.properties file.
-~~~
+~~~ ini
 enable-rcon=true
 rcon.port=25575
-rcon.password=sup3r s3cur3 p4ssw0rd
+rcon.password=your_mcrcon_password
 ~~~
 
 ## usage
 1. make sure RCON is activated on your server
 2. create the config.json file
 3. install the required packages
-~~~
+~~~ sh
 pip install -r requirements.txt
 ~~~
 4. run the [local_console.py](local_server_console/local_console.py) file
-~~~
+~~~ sh
 python local_console.py
 ~~~
 5. enter any minecraft command and see its response. A list of all the commands can be found below or [here](https://minecraft.wiki/w/Commands)
