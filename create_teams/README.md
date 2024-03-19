@@ -30,9 +30,9 @@ It needs to have the structure displayed below.
         "color": "<aqua>",
         ("friendlyFire": <true>,)
         ("seeFriendlyInvisibles": <true>,)
-        ("nametagVisibility": <always>,)
-        ("deathMessageVisibility": <always>,)
-        ("collisionRule": <always>,)
+        ("nametagVisibility": "<always>",)
+        ("deathMessageVisibility": "<always>",)
+        ("collisionRule": "<always>",)
         ("prefix": "",)
         ("suffix": "",)
         "members": [
@@ -59,24 +59,24 @@ Also changes the color of the outline of the entities caused by the Glowing effe
 - reset - names are shown in default color and formatting
 - one of the 16 chat color names:
 
-| color name   | HEX     |                          color                           |
-|:-------------|---------|:--------------------------------------------------------:|
-| black        | #000000 | ![#000000](https://placehold.co/15x15/000000/000000.png) |
-| dark_blue    | #0000AA | ![#0000AA](https://placehold.co/15x15/0000AA/0000AA.png) |
-| dark_green   | #00AA00 | ![#00AA00](https://placehold.co/15x15/00AA00/00AA00.png) |
-| dark_aqua    | #00AAAA | ![#00AAAA](https://placehold.co/15x15/00AAAA/00AAAA.png) |
-| dark_red     | #AA0000 | ![#AA0000](https://placehold.co/15x15/AA0000/AA0000.png) |
-| dark_purple  | #AA00AA | ![#AA00AA](https://placehold.co/15x15/AA00AA/AA00AA.png) |
-| gold         | #FFAA00 | ![#FFAA00](https://placehold.co/15x15/FFAA00/FFAA00.png) |
-| gray         | #AAAAAA | ![#AAAAAA](https://placehold.co/15x15/AAAAAA/AAAAAA.png) |
-| dark_gray    | #555555 | ![#555555](https://placehold.co/15x15/555555/555555.png) |
-| blue         | #5555FF | ![#5555FF](https://placehold.co/15x15/5555FF/5555FF.png) | 
-| green        | #55FF55 | ![#55FF55](https://placehold.co/15x15/55FF55/55FF55.png) |
-| aqua         | #55FFFF | ![#55FFFF](https://placehold.co/15x15/55FFFF/55FFFF.png) |
-| red          | #FF5555 | ![#FF5555](https://placehold.co/15x15/FF5555/FF5555.png) |
-| light_purple | #FF55FF | ![#FF55FF](https://placehold.co/15x15/FF55FF/FF55FF.png) |
-| yellow       | #FFFF55 | ![#FFFF55](https://placehold.co/15x15/FFFF55/FFFF55.png) |
-| white        | #FFFFFF | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) |
+  | color name   | HEX     |                          color                           |
+  |:-------------|---------|:--------------------------------------------------------:|
+  | black        | #000000 | ![#000000](https://placehold.co/15x15/000000/000000.png) |
+  | dark_blue    | #0000AA | ![#0000AA](https://placehold.co/15x15/0000AA/0000AA.png) |
+  | dark_green   | #00AA00 | ![#00AA00](https://placehold.co/15x15/00AA00/00AA00.png) |
+  | dark_aqua    | #00AAAA | ![#00AAAA](https://placehold.co/15x15/00AAAA/00AAAA.png) |
+  | dark_red     | #AA0000 | ![#AA0000](https://placehold.co/15x15/AA0000/AA0000.png) |
+  | dark_purple  | #AA00AA | ![#AA00AA](https://placehold.co/15x15/AA00AA/AA00AA.png) |
+  | gold         | #FFAA00 | ![#FFAA00](https://placehold.co/15x15/FFAA00/FFAA00.png) |
+  | gray         | #AAAAAA | ![#AAAAAA](https://placehold.co/15x15/AAAAAA/AAAAAA.png) |
+  | dark_gray    | #555555 | ![#555555](https://placehold.co/15x15/555555/555555.png) |
+  | blue         | #5555FF | ![#5555FF](https://placehold.co/15x15/5555FF/5555FF.png) | 
+  | green        | #55FF55 | ![#55FF55](https://placehold.co/15x15/55FF55/55FF55.png) |
+  | aqua         | #55FFFF | ![#55FFFF](https://placehold.co/15x15/55FFFF/55FFFF.png) |
+  | red          | #FF5555 | ![#FF5555](https://placehold.co/15x15/FF5555/FF5555.png) |
+  | light_purple | #FF55FF | ![#FF55FF](https://placehold.co/15x15/FF55FF/FF55FF.png) |
+  | yellow       | #FFFF55 | ![#FFFF55](https://placehold.co/15x15/FFFF55/FFFF55.png) |
+  | white        | #FFFFFF | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) |
 
 #### friendlyFire
 Enables/Disables players inflicting damage on each other when on the same team. 
