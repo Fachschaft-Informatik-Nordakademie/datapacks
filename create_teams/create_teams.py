@@ -126,12 +126,12 @@ class TeamCreator:
             {
                 "name": "prefix",
                 "value": f"\"{prefix}\"",
-                "standard": None
+                "standard": "\"None\""
             },
             {
                 "name": "suffix",
-                "value": f"\"suffix\"",
-                "standard": None
+                "value": f"\"{suffix}\"",
+                "standard": "\"None\""
             },
         ]
 
