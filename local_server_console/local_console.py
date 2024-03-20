@@ -64,7 +64,7 @@ class Console:
                     break
 
                 # run the command
-                self.__run_command(command=command)
+                print(self.__run_command(command=command))
 
                 # print an empty line
                 print()
