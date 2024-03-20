@@ -26,11 +26,11 @@ The JSON below shows an example of the structure. All parameters except the memb
 {
     "Wildschweine": {
         "color": "gold",
-        "friendlyFire": "true",)
-        "seeFriendlyInvisibles": "true",)
-        "nametagVisibility": "always",)
-        "deathMessageVisibility": "always",)
-        "collisionRule": "always",)
+        "friendlyFire": "true",
+        "seeFriendlyInvisibles": "true",
+        "nametagVisibility": "always",
+        "deathMessageVisibility": "always",
+        "collisionRule": "always",
         "prefix": "wilder ",
         "suffix": "aus der T21a",
         "members": [
