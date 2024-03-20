@@ -1,8 +1,8 @@
-# create_teams
-Used to automatically whitelist players and create Teams based on a JSON-File. Connects to the server using RCON.
+# Create Teams
+This script is used to automatically whitelist players and create Teams based on a JSON-File. It connects to the server using RCON.
 
-## config.json
-You need a config.json file in order to run this code. It has to look like this:
+## RCON Config File
+You need a `config.json` file in order to run this code. It has to look like this:
 ~~~ JSON
 {
   "mc_server_ip": "127.0.0.1",
@@ -11,16 +11,16 @@ You need a config.json file in order to run this code. It has to look like this:
 }
 ~~~
 
-## server config
-In order to use RCON you have to activate it in your server.properties file.
+## Server config
+In order to use RCON you have to activate it in your `server.properties` file.
 ~~~ ini
 enable-rcon=true
 rcon.port=25575
 rcon.password=your_mcrcon_password
 ~~~
 
-## teams.json
-The teams and their members that are supposed to be added are stored in a teams.json file. 
+## Team configuration
+Every team and their members that you want to add are stored in a `teams.json` file. 
 The JSON below shows an example of the structure. All parameters except the members are optional.
 ~~~ JSON
 {
@@ -45,7 +45,7 @@ The JSON below shows an example of the structure. All parameters except the memb
 }
 ~~~
 
-### parameters and their possible values parameters
+### Parameters and their values 
 - **team name**
   
   Display name of the team
