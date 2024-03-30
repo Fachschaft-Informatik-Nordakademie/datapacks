@@ -1,8 +1,8 @@
 # Create Teams Script
-Used to automatically whitelist players and create Teams based on a JSON-File. Connects to the server using RCON.
+This script is used to automatically whitelist players and create Teams based on a JSON-File. It connects to the server using RCON.
 
-## config.json
-You need a config.json file in order to run this code. It has to look like this:
+## RCON Config File
+You need a `config.json` file in order to run this code. It has to look like this:
 ~~~ JSON
 {
   "mc_server_ip": "127.0.0.1",
@@ -11,26 +11,26 @@ You need a config.json file in order to run this code. It has to look like this:
 }
 ~~~
 
-## server config
-In order to use RCON you have to activate it in your server.properties file.
+## Server config
+In order to use RCON you have to activate it in your `server.properties` file.
 ~~~ ini
 enable-rcon=true
 rcon.port=25575
 rcon.password=your_mcrcon_password
 ~~~
 
-## teams.json
-The teams and their members that are supposed to be added are stored in a teams.json file.
+## Team configuration
+Every team and their members that you want to add are stored in a `teams.json` file. 
 The JSON below shows an example of the structure. All parameters except the members are optional.
 ~~~ JSON
 {
     "Wildschweine": {
         "color": "gold",
-        "friendlyFire": "true",)
-        "seeFriendlyInvisibles": "true",)
-        "nametagVisibility": "always",)
-        "deathMessageVisibility": "always",)
-        "collisionRule": "always",)
+        "friendlyFire": "true",
+        "seeFriendlyInvisibles": "true",
+        "nametagVisibility": "always",
+        "deathMessageVisibility": "always",
+        "collisionRule": "always",
         "prefix": "wilder ",
         "suffix": "aus der T21a",
         "members": [
@@ -40,20 +40,20 @@ The JSON below shows an example of the structure. All parameters except the memb
         ]
     },
     "Giraffen": {
-
+        
     }
 }
 ~~~
 
-### parameters and their possible values parameters
+### Parameters and their values 
 - **team name**
-
+  
   Display name of the team
   - string of plain text
 
 - **color**
-
-  Decides the color of the team and players in chat, above their head, on the Tab menu, and on the sidebar.
+  
+  Decides the color of the team and players in chat, above their head, on the Tab menu, and on the sidebar. 
   Also changes the color of the outline of the entities caused by the Glowing effect.
   - `reset` - names are shown in default color and formatting
   - one of the 16 chat color names:
@@ -69,7 +69,7 @@ The JSON below shows an example of the structure. All parameters except the memb
     | `gold`         | #FFAA00 | ![#FFAA00](https://placehold.co/15x15/FFAA00/FFAA00.png) |
     | `gray`         | #AAAAAA | ![#AAAAAA](https://placehold.co/15x15/AAAAAA/AAAAAA.png) |
     | `dark_gray`    | #555555 | ![#555555](https://placehold.co/15x15/555555/555555.png) |
-    | `blue`         | #5555FF | ![#5555FF](https://placehold.co/15x15/5555FF/5555FF.png) |
+    | `blue`         | #5555FF | ![#5555FF](https://placehold.co/15x15/5555FF/5555FF.png) | 
     | `green`        | #55FF55 | ![#55FF55](https://placehold.co/15x15/55FF55/55FF55.png) |
     | `aqua`         | #55FFFF | ![#55FFFF](https://placehold.co/15x15/55FFFF/55FFFF.png) |
     | `red`          | #FF5555 | ![#FF5555](https://placehold.co/15x15/FF5555/FF5555.png) |
@@ -79,7 +79,7 @@ The JSON below shows an example of the structure. All parameters except the memb
 
 - **friendlyFire**
 
-  Enables/Disables players inflicting damage on each other when on the same team.
+  Enables/Disables players inflicting damage on each other when on the same team. 
   (Note: players can still inflict status effects on each other.) Does not affect some non-player entities in a team.
   - `true` - (Default) Enable players inflicting damage on each other when in the same team
   - `false` - Disable players inflicting damage on each other when in the same team.
@@ -99,7 +99,7 @@ The JSON below shows an example of the structure. All parameters except the memb
   - `always` - (Default) Name above player's head can be seen by all the players.
 
 - **deathMessageVisibility**
-
+  
   Controls the visibility of death messages for players.
   - `never` - Hide death message for all the players.
   - `hideForOtherTeams` - Hide death message to all the players who are not in the same team.
@@ -120,7 +120,7 @@ The JSON below shows an example of the structure. All parameters except the memb
   - string of plain text
 
 - **suffix**
-
+  
   Modifies the suffix that displays after players' names.
   - string of plain text
 
