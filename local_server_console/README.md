@@ -1,4 +1,4 @@
-# local_server_console
+# Local Server Console
 Allows you to run commands on the server using RCON.
 
 ## config.json

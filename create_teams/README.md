@@ -1,4 +1,4 @@
-# Create Teams
+# Create Teams Script
 This script is used to automatically whitelist players and create Teams based on a JSON-File. It connects to the server using RCON.
 
 ## RCON Config File
