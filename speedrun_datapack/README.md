@@ -6,7 +6,7 @@ Datapack that runs the Speedrun challenge.
 - Winner: Detects, which team won the Speedrun and displays it to all players
 
 ## How to start
-1. Run the [teams script](create_teams) with the parameter `speedrun_setup=True` or do these steps manually:
+1. Run the [teams script](/create_teams) with the parameter `speedrun_setup=True` or do these steps manually:
    1. create the teams with `/team add [team name]`
    2. add the players to the teams with `/team join [team name] [player name]`
    3. Add the teams to a teams storage  with `/data merge storage teams {"team[team nr]": "[team name]"}` the team nr needs to start at 1 and count upwards
