@@ -23,11 +23,16 @@ class TeamCreator:
     """
     Class for sending the commands to the Server using RCON.
     """
-    def __init__(self, config_file="config.json"):
+    def __init__(self, config_file="config.json", speedrun_setup=False):
         """
         Initialise the class
         :param config_file: Relative or absolute path of the config JSON file. The Default is "config.json"
+        :param speedrun_setup: Configures if the teams creation is for the speedrun datapack.
+        Runs the necessary commands when this option is True
         """
+        # store the speedrun_setup setting
+        self.__speedrun_setup = speedrun_setup
+
         # load the config file
         config_dict = json_2_dict(json_file=config_file)
 
@@ -159,14 +164,39 @@ class TeamCreator:
         command = f"/team join {team} {player}"
         return self.__run_command(command=command)
 
+    def __add_team_to_teams_storage(self, team_nr: int, team_name: str):
+        """
+        Adds the team to the team storage used in the speedrun datapack
+        :param team_nr: number of the team
+        :param team_name: name of the team
+        :return: response of the server
+        """
+        command = '/data merge storage teams {"team' + str(team_nr) + '":"' + team_name + '"}'
+        return self.__run_command(command=command)
+
+    def __add_nr_of_teams_to_storage(self, nr_of_teams: int):
+        """
+        Adds the number of teams to the storage used in the speedrun datapack
+        :param nr_of_teams: total number of teams
+        :return: response of the server
+        """
+        command = '/data merge storage teams {"teams":' + str(nr_of_teams) + '}'
+        return self.__run_command(command=command)
+
     def create_team(self, teams_file="teams.json"):
         """
         Creates the Team based on the json file, whitelist all team members and adds them to the team
         :param teams_file: Name/Path of the json file that contains the team
         """
+        # get the teams dict out of the json file
         teams_dict = json_2_dict(json_file=teams_file)
 
+        # keep track of the total number of teams
+        nr_of_teams = 0
+
         for team, team_options in teams_dict.items():
+            nr_of_teams += 1
+
             # create the team and modify its options
             self.__create_team(team_name=team,
                                color=team_options.get("color", None),
@@ -178,6 +208,11 @@ class TeamCreator:
                                prefix=team_options.get("prefix", None),
                                suffix=team_options.get("suffix", None))
 
+            # check if the script is used for the speedrun datapack
+            if self.__speedrun_setup:
+                # add the team to the teams storage used in the speedrun datapack
+                print("\t", self.__add_team_to_teams_storage(team_nr=nr_of_teams, team_name=team))
+
             print(f"Adding players to team {team}")
             # go through every team member
             for player in team_options.get("members"):
@@ -187,11 +222,19 @@ class TeamCreator:
                 # add the player to the team
                 print("\t", self.__add_player_2_team(team=team, player=player))
 
+        # check if the script is used for the speedrun datapack
+        if self.__speedrun_setup:
+            # add the total number of teams to the teams storage used iun the speedrun datapack
+            print(self.__add_nr_of_teams_to_storage(nr_of_teams=nr_of_teams))
+
+        # print a message that tells you how many teams got added
+        print(f"Added {nr_of_teams} teams")
+
 
 # check if this file was executed directly
 if __name__ == "__main__":
     # create a TeamCreator
-    team_creator = TeamCreator()
+    team_creator = TeamCreator(speedrun_setup=True)
 
     # create the team based on the json
     team_creator.create_team()
