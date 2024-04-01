@@ -1,5 +1,5 @@
 # This function runs at /reload
-tellraw @a "Reloaded speedrun datapack"
+tellraw @a "Loaded speedrun datapack"
 
 # create a teamSeenCredits scoreboard
 scoreboard objectives add teamSeenCredits dummy

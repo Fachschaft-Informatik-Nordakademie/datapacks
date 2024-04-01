@@ -1,1 +1,1 @@
-$title @p actionbar "$(hours):$(min):$(sec)"
+$title @a actionbar "$(hours):$(min):$(sec)"
