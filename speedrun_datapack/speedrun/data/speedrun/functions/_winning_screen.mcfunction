@@ -11,4 +11,4 @@ $execute as @a run title @s subtitle {"text": "$(winner) won the speedrun"}
 tag @a add seenWinningScreen
 
 # stop the clock
-schedule clear speedrun:clock
+schedule clear speedrun:_clock
