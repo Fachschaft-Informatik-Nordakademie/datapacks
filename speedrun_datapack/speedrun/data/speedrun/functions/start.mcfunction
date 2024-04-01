@@ -8,10 +8,10 @@ scoreboard players operation loop_current team_loop = loop_start team_loop
 scoreboard players set loop_break team_loop 0
 
 # get the team members of all teams
-function speedrun:team_loop {"function":"speedrun:reload_team_members"}
+function speedrun:refresh_all_teams
 
 # start the check for winners
-function speedrun:check_winner
+function speedrun:_check_winner
 
 # start the clock
-function speedrun:clock
+function speedrun:_clock
