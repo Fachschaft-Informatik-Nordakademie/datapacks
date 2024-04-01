@@ -15,6 +15,6 @@ execute store result storage minecraft:timer min int 1 run scoreboard players ge
 execute store result storage minecraft:timer hours int 1 run scoreboard players get hours timer
 
 # display the time
-function speedrun:display_clock with storage minecraft:timer
+function speedrun:_display_clock with storage minecraft:timer
 
-schedule function speedrun:clock 1s
+schedule function speedrun:_clock 1s
