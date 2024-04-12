@@ -1,6 +1,9 @@
 # This function runs at /reload
 tellraw @a "Loaded speedrun datapack"
 
+# turn off day light cycle
+gamerule doDaylightCycle false
+
 # create a teamSeenCredits scoreboard
 scoreboard objectives add teamSeenCredits dummy
 

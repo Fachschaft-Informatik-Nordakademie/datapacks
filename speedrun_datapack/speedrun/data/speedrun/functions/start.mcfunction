@@ -1,5 +1,8 @@
 # this function runs at /function speedrun:start
 
+# turn on day light cycle
+gamerule doDaylightCycle true
+
 # set up the team loop
 scoreboard objectives add team_loop dummy
 scoreboard players set loop_start team_loop 1
