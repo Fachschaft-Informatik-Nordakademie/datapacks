@@ -15,6 +15,5 @@ scoreboard objectives remove teamMembers
 scoreboard objectives remove timer
 scoreboard objectives remove team_loop
 
-# remove all data storage
-data remove storage teams
-data remove storage seenWinningScreen
+# change the state in the data storage
+data modify storage speedrun state set value finished

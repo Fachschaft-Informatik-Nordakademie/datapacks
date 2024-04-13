@@ -1,5 +1,11 @@
 # this function runs at /function speedrun:start
 
+# change the state in the data storage
+data modify storage speedrun state set value active
+
+# unlock all players
+execute as @a[tag=was_locked] run function speedrun:_unlock_player
+
 # turn on day light cycle
 gamerule doDaylightCycle true
 

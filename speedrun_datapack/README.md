@@ -46,6 +46,7 @@ Here is a list of all the scoreboards
     - `loop_finish`: value at which number the loop stops. Number of teams stored in the teams storage
     - `loop_current`: value at which team number the loop is currently
     - `loop_break`: determines if there is a break in the loop (0=false & 1=true). Breaks are currently not used.
+- `lock_id`
 
 
 ### Data storage
@@ -56,9 +57,15 @@ The Speedrun datapack also uses some data storages.
   - Content:
     - `teams`: # of teams
     - `team[team nr]`: team name
+- speedrun
+  - Use: stores the state of the speedrun
+  - Content:
+    - `state`: setup/active/stopped/finished
 
 
 ### Tags
 Tags are applied to players to store data about them. Mostly use to run a function only ones. These tags are used:
 - `seenCredits`: Applied to a player if he has seen the end credits and is added to his team value in the teamSeenCredits scoreboard
 - `seenWinningScreen`: Applied to a player if he has seen the winning screen
+- `new_lock_marker`
+- `was_locked`
