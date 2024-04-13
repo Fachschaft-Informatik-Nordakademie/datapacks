@@ -1,5 +1,8 @@
 # this runs on speedrun:stop
 
+# turn daylight off
+gamerule doDaylightCycle false
+
 # stop the check winner
 schedule clear speedrun:_check_winner
 
