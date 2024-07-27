@@ -19,5 +19,11 @@ scoreboard players add hours timer 0
 # create a scoreboard that handles the player locks
 scoreboard objectives add lock_id dummy
 
-# create a data storage that determines the state of the speedrun
-data merge storage speedrun {"state":"setup"}
+# create a scoreboard that handles variables for the spawn circle
+scoreboard objectives add .spawn_circle dummy
+# initialise the angle as 360 to divide it by the # of players later
+scoreboard players set angle .spawn_circle 360
+
+# summon a armor stand at the world spawn to spawn the spwan circle there
+kill @e[type=minecraft:armor_stand,tag=center]
+summon minecraft:armor_stand ~0.5 ~ ~0.5 {Tags:["center"]}
