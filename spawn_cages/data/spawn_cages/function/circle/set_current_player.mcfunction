@@ -1,0 +1,1 @@
+$data modify storage minecraft:players current_player_name set from storage minecraft:players player$(current_player_nr)

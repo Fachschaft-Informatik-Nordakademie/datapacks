@@ -1,0 +1,22 @@
+# Generate the spawn_circle
+
+# save total number of players in .spawn_circle scoreboard
+execute store result score players .spawn_circle run data get storage minecraft:players total
+
+# calculate the angle
+scoreboard players operation angle .spawn_circle /= players .spawn_circle
+
+# save the angle in the players storage
+execute store result storage players angle int 1 run scoreboard players get angle .spawn_circle
+
+# place the spawn center
+execute as @e[type=minecraft:armor_stand,tag=center] at @e[type=minecraft:armor_stand,tag=center] run place jigsaw spawn_cages:spawn/center_placer spawn_cages:center 7 ~ 0 ~
+
+# store the loop parameters in the .spawn_circle scoreboard
+scoreboard players set loop_start .spawn_circle 1
+execute store result score loop_finish .spawn_circle run data get storage minecraft:players total
+scoreboard players operation loop_current .spawn_circle = loop_start .spawn_circle
+scoreboard players set loop_break .spawn_circle 0
+
+# run a loop that spwawns a player cage
+function spawn_cages:circle/place_cage with storage minecraft:players

@@ -1,0 +1,13 @@
+{
+  "name": "spawn_cages:spawn/center_placer",
+  "fallback": "minecraft:empty",
+  "elements": [{
+      "weight": 1,
+      "element": {
+          "location": "spawn_cages:spawn/placers/center_placer",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+      }
+    }]
+}
