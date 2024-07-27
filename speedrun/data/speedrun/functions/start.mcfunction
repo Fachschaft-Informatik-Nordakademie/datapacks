@@ -1,26 +1,22 @@
 # this function runs at /function speedrun:start
 
+# tell the user that the run has to be setup first
+execute unless data storage speedrun {"state":"setup"} run tellraw @s "The speedrun has to be setup first by running /function speedrun:setup"
+
+# change the state of the run to active
+execute if data storage speedrun {"state":"setup"} run data modify storage speedrun state set value stopped
+
 # change the state in the data storage
-data modify storage speedrun state set value active
+execute if data storage speedrun {"state":"active"} run data modify storage speedrun state set value active
 
 # unlock all players
-execute as @a[tag=was_locked] run function speedrun:_unlock_player
+execute if data storage speedrun {"state":"active"} as @a[tag=was_locked] run function speedrun:_unlock_player
 
 # turn on day light cycle
-gamerule doDaylightCycle true
-
-# set up the team loop
-scoreboard objectives add team_loop dummy
-scoreboard players set loop_start team_loop 1
-execute store result score loop_finish team_loop run data get storage minecraft:teams teams
-scoreboard players operation loop_current team_loop = loop_start team_loop
-scoreboard players set loop_break team_loop 0
-
-# get the team members of all teams
-function speedrun:refresh_all_teams
+execute if data storage speedrun {"state":"active"} run gamerule doDaylightCycle true
 
 # start the check for winners
-function speedrun:_check_winner
+execute if data storage speedrun {"state":"active"} run function speedrun:_check_winner
 
 # start the clock
-function speedrun:_clock
+execute if data storage speedrun {"state":"active"} run function speedrun:_clock

@@ -9,4 +9,5 @@ scoreboard players operation @s lock_id = .global lock_id
 tag @s add was_locked
 tag @e remove new_lock_marker
 
-effect give @s minecraft:mining_fatigue infinite 255 true
+# make it impossible to mine blocks
+attribute @s minecraft:player.block_break_speed base set 0

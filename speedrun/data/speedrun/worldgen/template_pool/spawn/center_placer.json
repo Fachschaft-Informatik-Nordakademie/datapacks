@@ -1,0 +1,13 @@
+{
+  "name": "speedrun:spawn/center_placer",
+  "fallback": "minecraft:empty",
+  "elements": [{
+      "weight": 1,
+      "element": {
+          "location": "speedrun:spawn/placers/center_placer",
+          "processors": "minecraft:empty",
+          "projection": "terrain_matching",
+          "element_type": "minecraft:single_pool_element"
+      }
+    }]
+}
