@@ -1,6 +1,11 @@
 # Speedrun Datapack
 Datapack that runs the Speedrun challenge.
 
+> [!NOTE]
+> Developed in datapack version 41 for Minecraft version 1.20.5.
+> This Datapack is not finished (yet?)
+
+
 ## Features
 - Timer: shows how long the Speedrun lasted in the Action bar of the players
 - Winner: Detects, which team won the Speedrun and displays it to all players

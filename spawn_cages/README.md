@@ -2,6 +2,10 @@
 Spawns a circle with spawn cages for every player listed in a data storage.
 This datapack also turns off the daylight circle and locks every player in their cage until they are released.
 
+> [!NOTE]
+> Developed in datapack version 48 for Minecraft version 1.21
+
+
 ## How to use it
 In order to use the Datapack you have to follow these steps:
 1. Insert the nesessary data into the players data storage. By using these commands:
