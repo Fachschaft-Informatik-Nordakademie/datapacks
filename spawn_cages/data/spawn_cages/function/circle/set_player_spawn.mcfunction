@@ -1,3 +1,4 @@
+# Tell every player wich player is processed right now
 $tellraw @a "Processing $(current_player_name)"
 
 # Set the spawnpoint of the player

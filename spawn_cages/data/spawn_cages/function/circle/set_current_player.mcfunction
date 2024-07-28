@@ -1,1 +1,2 @@
+# Set the current_player_name value in the players storage to the name that is stored under player<current_player_nr>  
 $data modify storage minecraft:players current_player_name set from storage minecraft:players player$(current_player_nr)

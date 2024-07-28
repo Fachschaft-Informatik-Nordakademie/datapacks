@@ -1,4 +1,4 @@
-# loop for placing player cage
+# loop for placing the player cage
 
 # store the current number in the players storage
 execute store result storage minecraft:players current_player_nr int 1 run scoreboard players get loop_current .spawn_circle
