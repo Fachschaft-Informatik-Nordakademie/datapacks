@@ -15,11 +15,14 @@ Spawns a circle  with spawn cages for every player listed in a data storage.
     - `player1`: <name_of_player1>
     - ...
     - `playerN`:  <name_of_playerN>
+- `spawn_cages`: Stores information about the spawn cages.
+    - `state`: Stores the state of the spawn cages. Can be `generated`, 
 
 ### Scoreboards
 - `.spawn_circle`: Used for spawning the spawn circle
     - `players`: Total number of players 
     - `angle`: Angle that the armorestand that spawns the cages needs to rotated. Is calculated based on the # of players.
+- `.lock_id`: Used for locking the players in position
 
 
 ### Tags

@@ -20,3 +20,9 @@ scoreboard players set loop_break .spawn_circle 0
 
 # run a loop that spwawns a player cage
 function spawn_cages:circle/place_cage with storage minecraft:players
+
+# remove the was_locked tag from all players
+tag @a remove was_locked
+
+# set the state of the spawn cages to generated
+data merge storage spawn_cages {"state":"generated"}
