@@ -4,15 +4,21 @@ This datapack also turns off the daylight circle and locks every player in their
 
 ## How to use it
 In order to use the Datapack you have to follow these steps:
-1. Insert the nesessary data into the players data storage. By using these commands:
+1. Calculate the angle and radius
+    total # of players := N
+    angle = 360 / N
+    radius = max((N/8)/(2π), 20)
+2. Insert the nesessary data into the players data storage. By using these commands:
     ```
     /data merge storage players {"total":<total # of players N>}
+    /data merge storage players {"angle":<angle>}
+    /data merge storage players {"radius":<radius>}
     /data merge storage players {"player1":"<minecraft name of player 1>"}
     ...
     /data merge storage players {"playerN":"<minecraft name of player N>"}
     ```
-2. Run the command to spawn the cages `/function spawn_cages:generate_circle`
-3. When you are ready to start the game you can unlock all players with `/function spawn_cages:unlock_players`
+3. Run the command to spawn the cages `/function spawn_cages:generate_circle`
+4. When you are ready to start the game you can unlock all players with `/function spawn_cages:unlock_players`
 
 ## How it Works
 
