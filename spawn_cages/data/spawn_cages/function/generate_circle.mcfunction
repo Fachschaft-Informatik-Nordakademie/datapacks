@@ -1,14 +1,5 @@
 # Generate the spawn_circle
 
-# save total number of players in .spawn_circle scoreboard
-execute store result score players .spawn_circle run data get storage minecraft:players total
-
-# calculate the angle
-scoreboard players operation angle .spawn_circle /= players .spawn_circle
-
-# save the angle in the players storage
-execute store result storage players angle int 1 run scoreboard players get angle .spawn_circle
-
 # place the spawn center
 execute as @e[type=minecraft:armor_stand,tag=center] at @e[type=minecraft:armor_stand,tag=center] run place jigsaw spawn_cages:spawn/center_placer spawn_cages:center 7 ~ 0 ~
 

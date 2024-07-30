@@ -23,7 +23,8 @@ In order to use the Datapack you have to follow these steps:
 ### Data Storage
 - `players`: Stores all the player names as well as the tolal number of players.
     - `total`: Total number of players N
-    - `angle`: Rotation angle to create the spawn circle
+    - `angle`: Rotation angle to create the spawn circle. Needs to be set before it runs
+    - `radius`: Radius of the spawn circle. Needs to be set befor it runs
     - `current_player_nr`: Number of the current player
     - `current_player_name`: Name of the current player
     - `player1`: <name_of_player1>
@@ -34,8 +35,6 @@ In order to use the Datapack you have to follow these steps:
 
 ### Scoreboards
 - `.spawn_circle`: Used for spawning the spawn circle
-    - `players`: Total number of players 
-    - `angle`: Angle that the armorestand that spawns the cages needs to rotated. Is calculated based on the # of players.
     - `loop_start`: Start value of the loop used for spawning the player cages.
     - `loop_finish`: Finish value of the loop used for spawning the player cages.
     - `loop_current`: Current value of the loop used for spawning the player cages.

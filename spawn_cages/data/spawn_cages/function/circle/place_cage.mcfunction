@@ -7,7 +7,7 @@ execute store result storage minecraft:players current_player_nr int 1 run score
 execute run function spawn_cages:circle/set_current_player with storage players
 
 # spawn a marker for the cage
-execute at @e[type=minecraft:armor_stand,tag=center] run summon minecraft:marker ^ ^ ^25 {Tags:["cage_position"]}
+$execute at @e[type=minecraft:armor_stand,tag=center] run summon minecraft:marker ^ ^ ^$(radius) {Tags:["cage_position"]}
 
 # place the player cage
 execute as @e[type=minecraft:marker,tag=cage_position, tag=!summoned_cage] at @e[type=minecraft:marker,tag=cage_position, tag=!summoned_cage] run place jigsaw spawn_cages:spawn/cage_placer spawn_cages:player_cage 7 ~ 0 ~
