@@ -1,10 +1,5 @@
-# Speedrun Datapack
+# Speedrun Datapack [![Datapack Format - 41](https://img.shields.io/badge/Datapack_Format-41-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.20.5](https://img.shields.io/badge/Minecraft-1.20.5-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.20.5)
 Datapack that runs the Speedrun challenge.
-
-> [!NOTE]
-> Developed in datapack version 41 for Minecraft version 1.20.5.
-> This Datapack is not finished (yet?)
-
 
 ## Features
 - Timer: shows how long the Speedrun lasted in the Action bar of the players

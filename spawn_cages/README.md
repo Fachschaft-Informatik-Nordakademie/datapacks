@@ -1,10 +1,6 @@
-# Spawn Cirlce Datapack
+# Spawn Cirlce Datapack [![Datapack Format - 48](https://img.shields.io/badge/Datapack_Format-48-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21](https://img.shields.io/badge/Minecraft-1.21-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
 Spawns a circle with spawn cages for every player listed in a data storage.
 This datapack also turns off the daylight circle and locks every player in their cage until they are released.
-
-> [!NOTE]
-> Developed in datapack version 48 for Minecraft version 1.21
-
 
 ## How to use it
 In order to use the Datapack you have to follow these steps:
