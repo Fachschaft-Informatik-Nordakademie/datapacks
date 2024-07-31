@@ -7,8 +7,10 @@ In order to use the Datapack you have to follow these steps:
 1. Calculate the angle and radius
     ```
     N := total number of players
+    D := distance between cages
+    D = 8
     angle = 360 / N
-    radius = max((N/8)/(2π), 20)
+    radius = max((N*D)/(2π), 20)
     ```
 3. Insert the nesessary data into the players data storage. By using these commands:
     ```
