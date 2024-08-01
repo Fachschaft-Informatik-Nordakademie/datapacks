@@ -53,6 +53,7 @@ In order to use the Datapack you have to follow these steps:
 - `cage_position`: Tag for the markers that are spawned at the cage positions
 - `summoned_cage`: Tag for all the cage_position markers that already summoned a player cage
 - `cage_center`: Tag for the marker that sits at the center of the player cage
+- `player_<player name>`: Tag with the corresponding player name given top the cage_center markers. Allows the player to be changed after the circle got generated
 - `set_player_spawn`: Tag for all the cage_center markers that already set the spawnpoint of a player
 - `lock`: Tag for all markers that are used top lock the players.
 - `new_lock_marker`: Tag given to all lock markers when they are created. This Tag is removed once a player got assigned to the marker. 

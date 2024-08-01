@@ -12,7 +12,7 @@ $execute at @e[type=minecraft:armor_stand,tag=center] run summon minecraft:marke
 # place the player cage
 execute as @e[type=minecraft:marker,tag=cage_position, tag=!summoned_cage] at @e[type=minecraft:marker,tag=cage_position, tag=!summoned_cage] run place jigsaw spawn_cages:spawn/cage_placer spawn_cages:player_cage 7 ~ 0 ~
 
-# give the marker a tag that is summoned a cage
+# give the marker a tag that it summoned a cage
 tag @n[type=marker, tag=cage_position, tag=!summoned_cage] add summoned_cage
 
 # set the spawn point of the player
