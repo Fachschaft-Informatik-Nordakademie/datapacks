@@ -1,0 +1,72 @@
+{
+    "music_disc.watch_out_for_elmo": {
+        "sounds": [
+            {
+                "name": "records/watch_out_for_elmo"
+            }
+        ]
+    },
+    "music_disc.nak_fcking_nak": {
+        "sounds": [
+            {
+                "name": "records/nak_fcking_nak"
+            }
+        ]
+    },
+    "music_disc.poolparty_im_schnee": {
+        "sounds": [
+            {
+                "name": "records/poolparty_im_schnee"
+            }
+        ]
+    },
+    "music_disc.safe_nak": {
+        "sounds": [
+            {
+                "name": "records/safe_nak"
+            }
+        ]
+    },
+    "music_disc.nakleraufstand": {
+        "sounds": [
+            {
+                "name": "records/nakleraufstand"
+            }
+        ]
+    },
+    "music_disc.spirit_cowboys": {
+        "sounds": [
+            {
+                "name": "records/spirit_cowboys"
+            }
+        ]
+    },
+    "music_disc.die_nak_springt_auf_und_ab": {
+        "sounds": [
+            {
+                "name": "records/die_nak_springt_auf_und_ab"
+            }
+        ]
+    },
+    "music_disc.spirit_auf_den_snowdays": {
+        "sounds": [
+            {
+                "name": "records/spirit_auf_den_snowdays"
+            }
+        ]
+    },
+    "music_disc.nakler_von_der_reperbahn": {
+        "sounds": [
+            {
+                "name": "records/nakler_von_der_reperbahn"
+            }
+        ]
+    },
+    "music_disc.supernakler": {
+        "sounds": [
+            {
+                "name": "records/supernakler"
+            }
+        ]
+    }
+}

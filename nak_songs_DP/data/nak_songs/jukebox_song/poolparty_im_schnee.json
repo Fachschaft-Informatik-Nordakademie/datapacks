@@ -1,0 +1,8 @@
+{
+    "comparator_output": 3,
+    "length_in_seconds": 220,
+    "description": "Poolparty im Schnee",
+    "sound_event": {
+        "sound_id": "minecraft:music_disc.poolparty_im_schnee"
+    }
+}
