@@ -1,8 +1,0 @@
-{
-    "comparator_output": 7,
-    "length_in_seconds": 157,
-    "description": "Die NAK springt auf und ab",
-    "sound_event": {
-        "sound_id": "minecraft:music_disc.die_nak_springt_auf_und_ab"
-    }
-}

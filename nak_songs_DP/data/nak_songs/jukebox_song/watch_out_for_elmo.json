@@ -1,8 +1,0 @@
-{
-    "comparator_output": 1,
-    "length_in_seconds": 193,
-    "description": "Watch out for Elmo",
-    "sound_event": {
-        "sound_id": "minecraft:music_disc.watch_out_for_elmo"
-    }
-}

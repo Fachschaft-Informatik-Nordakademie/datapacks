@@ -1,0 +1,82 @@
+{
+    "nak_songs.watch_out_for_elmo": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/watch_out_for_elmo",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.nak_fcking_nak": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/nak_fcking_nak",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.poolparty_im_schnee": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/poolparty_im_schnee",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.safe_nak": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/safe_nak",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.nakleraufstand": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/nakleraufstand",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.spirit_cowboys": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/spirit_cowboys",
+                "stream": true
+            }
+        ]
+    }, 
+    "nak_songs.die_nak_springt_auf_und_ab": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/die_nak_springt_auf_und_ab",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.spirit_auf_den_snowdays": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/spirit_auf_den_snowdays",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.nakler_von_der_reperbahn": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/nakler_von_der_reperbahn",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.supernakler": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/supernakler",
+                "stream": true
+            }
+        ]
+    }
+}

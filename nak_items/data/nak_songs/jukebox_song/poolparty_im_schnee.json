@@ -1,0 +1,8 @@
+{
+    "comparator_output": 3,
+    "length_in_seconds": 220,
+    "description": "Poolparty im Schnee",
+    "sound_event": {
+        "sound_id": "nak_songs:nak_songs.poolparty_im_schnee"
+    }
+}
