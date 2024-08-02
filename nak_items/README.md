@@ -5,6 +5,8 @@ Adds a bunch of items that are related to the Nordakademie.
 > This datapack requires the [NAK Items Pack](/NAK%20Items%20Pack/) resource pack.
 
 ## Songs
+This datapack adds all the NAK songs wich where created by the NAK Sport team.
+
 | Icon | Song | Length | Comparator Output | How it can be optained |
 |:----:|:-----|-------:|------------------:|:-----------------------|
 | ![Watch out for Elmo](/NAK%20Items%20Pack/assets/minecraft/textures/item/watch_out_for_elmo.png) | [Watch out for Elmo](https://open.spotify.com/intl-de/track/6G2YmrDb49TXgwYigmnZK1?si=1b4a6261d1f64665)| 3:13 | 1 | Drops when a Creeper is killed by a Skeleton |
