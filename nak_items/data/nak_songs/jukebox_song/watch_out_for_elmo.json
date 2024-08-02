@@ -1,0 +1,8 @@
+{
+    "comparator_output": 1,
+    "length_in_seconds": 193,
+    "description": "Watch out for Elmo",
+    "sound_event": {
+        "sound_id": "nak_songs:nak_songs.watch_out_for_elmo"
+    }
+}

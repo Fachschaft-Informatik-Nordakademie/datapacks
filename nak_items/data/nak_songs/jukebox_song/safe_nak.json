@@ -1,0 +1,8 @@
+{
+    "comparator_output": 4,
+    "length_in_seconds": 162,
+    "description": "Safe NAK",
+    "sound_event": {
+        "sound_id": "nak_songs:nak_songs.safe_nak"
+    }
+}
