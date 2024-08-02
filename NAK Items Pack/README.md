@@ -1,4 +1,4 @@
-# NAK Items Pack
+# NAK Items Pack [![Resource Pack Format - 34](https://img.shields.io/badge/Resource_Pack_Format-34-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21](https://img.shields.io/badge/Minecraft-1.21-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
 Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) datapack.
 
 ## Songs
