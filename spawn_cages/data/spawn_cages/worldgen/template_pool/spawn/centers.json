@@ -1,0 +1,23 @@
+{
+  "name": "spawn_cages:spawn/centers",
+  "fallback": "minecraft:empty",
+  "elements": [{
+      "weight": 1,
+      "element": {
+          "location": "spawn_cages:spawn/centers/center_banner_nak",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+          "location": "spawn_cages:spawn/centers/center_banner_wilda",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

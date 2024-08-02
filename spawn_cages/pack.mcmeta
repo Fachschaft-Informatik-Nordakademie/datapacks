@@ -1,0 +1,6 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"description": "Spawn a circle with cages for every player listed in a data storage. Locks the players in the cages until they are realeased."
+	}
+}
