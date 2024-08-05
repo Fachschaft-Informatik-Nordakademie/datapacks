@@ -1,6 +1,18 @@
 # NAK Items Pack
 Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) datapack.
 
+## Banner Patterns
+| Banner Pattern | Banner Texture | Shield Texture |
+|:---------------|:--------------:|:--------------:|
+| left N | ![left N banner](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/banner/n_left.png) | ![left N shield](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/shield/n_left.png) |
+| right N | ![right N banner](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/banner/n_right.png) | ![right N shield](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/shield/n_right.png) |
+
+### Examples:
+| Banner | Shield |
+|:-------|:-------|
+| ![NAK banner](/docs/images/NAK_banner.png) | ![NAK shield](/docs/images/NAK_shield.png)|
+
+
 ## Songs
 | Icon | Song | Base Item | Custom Model Data |
 |:----:|:-----|:----------|------------------:|

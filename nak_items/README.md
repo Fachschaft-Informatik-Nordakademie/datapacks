@@ -4,6 +4,19 @@ Adds a bunch of items that are related to the Nordakademie.
 > [!NOTE]  
 > This datapack requires the [NAK Items Pack](/NAK%20Items%20Pack/) resource pack.
 
+## Banners
+This datapack adds two banner patterns. In combination they can be used to create the Nordakademie logo.
+
+| Banner Pattern | Banner Texture | Shield Texture | How it can be optained |
+|:---------------|:--------------:|:--------------:|:----------------------:|
+| left half of the NAK N | ![left N banner](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/banner/n_left.png) | ![left N shield](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/shield/n_left.png) | standard loom pattern |
+| right half of the NAK N | ![right N banner](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/banner/n_right.png) | ![right N shield](/NAK%20Items%20Pack/assets/nak_banners/textures/entity/shield/n_right.png) | standard loom pattern |
+
+### Examples:
+| Banner | Shield |
+|:-------|:-------|
+| ![NAK banner](/docs/images/NAK_banner.png) | ![NAK shield](/docs/images/NAK_shield.png)|
+
 ## Songs
 This datapack adds all the NAK songs wich where created by the NAK Sport team.
 
