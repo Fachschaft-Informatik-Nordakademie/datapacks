@@ -16,6 +16,7 @@ This datapack adds two banner patterns. In combination they can be used to creat
 | Banner | Shield |
 |:-------|:-------|
 | ![NAK banner](/docs/images/NAK_banner.png) | ![NAK shield](/docs/images/NAK_shield.png)|
+| Command: `/function nak_banners:give_banner`| Command: `/function nak_banners:give_shield`|
 
 ## Songs
 This datapack adds all the NAK songs wich where created by the NAK Sport team.
