@@ -2,6 +2,9 @@
 Spawns a circle with spawn cages for every player listed in a data storage.
 This datapack also turns off the daylight circle and locks every player in their cage until they are released.
 
+> [!NOTE]  
+> For the current spawn circle center it`s required to have the following datapacks: [hunger_games](/hunger_games/), [nak_items](/nak_items/) and the [NAK Items Pack](/NAK%20Items%20Pack/) resource pack.
+
 ## How to use it
 In order to use the Datapack you have to follow these steps:
 1. Calculate the angle and radius

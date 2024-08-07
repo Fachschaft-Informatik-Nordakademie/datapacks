@@ -11,3 +11,6 @@ The loottable contains these items:
 
 | Item | Count | Chance |
 |:-----|:------|:-------|
+
+
+You can get a chest with this loot table by running `/function hunger_games:get_spawn_chest`
