@@ -1,0 +1,454 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dried_kelp",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot",
+            "weight": 10
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_hoe",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "target": "custom_name",
+                "name": "deine Mutter"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_boots",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:binding_curse": 0
+                },
+                "add": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:chainmail_helmet",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:binding_curse": 0
+                },
+                "add": true
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "weight": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Fließt im Blut jedes NAKler",
+                    "color": "#FFFFFF"
+                  }
+                ],
+                "mode": "replace_all"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_color": 16777215,
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:strength",
+                        "amplifier": 0,
+                        "duration": 100
+                      },
+                      {
+                        "id": "minecraft:nausea",
+                        "amplifier": 255,
+                        "duration": 200
+                      }
+                    ]
+                  },
+                  "minecraft:custom_name": "Krückhauwasser",
+                  "minecraft:lore": [
+                    "{'text':'Fließt im Blut jedes NAKler', 'color':'#FFFFFF'}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "weight": 1
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:apple",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 0,
+              "max": 3
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_pickaxe",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_sword",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wooden_axe",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint",
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gravel",
+            "weight": 5
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:suspicious_stew",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 2
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:jukebox",
+            "weight": 1
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 0,
+              "max": 3
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_banner",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:banner_patterns": [
+                    {
+                      "pattern": "nak_banners:n_left",
+                      "color": "light_blue"
+                    },
+                    {
+                      "pattern": "nak_banners:n_right",
+                      "color": "blue"
+                    }
+                  ]
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "target": "custom_name",
+                "name": "NAK Banner"
+              }
+            ]
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 0,
+              "max": 3
+            }
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 1,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:watch_out_for_elmo"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 2,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:nak_fcking_nak"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 3,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:poolparty_im_schnee"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 4,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:safe_nak"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 5,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:nakleraufstand"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 6,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:spirit_cowboys"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 7,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:die_nak_springt_auf_und_ab"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 8,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:spirit_auf_den_snowdays"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 9,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:nakler_von_der_reperbahn"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_11",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 10,
+                  "minecraft:jukebox_playable": {
+                    "song": "nak_songs:supernakler"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
