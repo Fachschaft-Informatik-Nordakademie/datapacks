@@ -1,0 +1,1 @@
+give @s potion[minecraft:custom_name="Krückhauwasser",minecraft:lore=['{"text":"Fließt im Blut jedes NAKler", "color":"#FFFFFF"}'],potion_contents={custom_color:16777215,custom_effects:[{id:"minecraft:strength",amplifier:1,duration:100},{id:"minecraft:nausea",amplifier:255,duration:200}]}]
