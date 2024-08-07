@@ -35,3 +35,9 @@ This datapack adds all the NAK songs wich where created by the NAK Sport team.
 | ![Supernakler](/NAK%20Items%20Pack/assets/minecraft/textures/item/supernakler.png) | [Supernakler](https://open.spotify.com/intl-de/track/5gV8KLUWGaY2k3UIxYkITr?si=2898734d8e87403c) | 3:21 | 10 | Drops when a Creeper is killed by a Skeleton |
 
 You can get all the Songs at once by running the command `/function nak_songs:give_all`
+
+## Potions
+
+| Name | Effects | How it can be optained | Command |
+|:-----|:--------|:-----------------------|:--------|
+| Krückhauwasser | Strength I (5s), Nausea 255 (10s) | Currently not availabe in survival | `/function nak_potions:get_krueckhauwasser` |
