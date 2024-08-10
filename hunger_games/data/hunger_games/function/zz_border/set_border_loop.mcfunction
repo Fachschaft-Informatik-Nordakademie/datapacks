@@ -1,5 +1,5 @@
-# warn the players
-$title @a actionbar {"text":"The world border will shrink to x&z = ±$(next) for the next 10 minutes","color":"red"}
+# set the border
+function hunger_games:zz_border/set_border with storage border
 
-# set the world border
-$worldborder set $(next) 600
+# continue the loop 
+execute if score next .border > stop .border run schedule function hunger_games:zz_border/set_border_loop 1800s
