@@ -9,8 +9,10 @@ scoreboard players set counter .countdown 31
 # create a border scoreboard and initialise it
 scoreboard objectives add .border dummy
 scoreboard players set next .border 2500
+scoreboard players set next_coords .border 1250
 scoreboard players set reduction .border 600
 scoreboard players set stop .border 100
+scoreboard players set #2 .border 2
 
 # set the spawn to 0 0
 setworldspawn 0 319 0
