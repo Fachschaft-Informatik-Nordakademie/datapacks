@@ -1,0 +1,1 @@
+$title @a title {"text":"$(counter)s", "color":"green"}
