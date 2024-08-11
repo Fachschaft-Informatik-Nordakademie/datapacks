@@ -1,0 +1,1 @@
+execute at @a if score on .no_portals matches 1.. if dimension minecraft:overworld unless entity @e[type=minecraft:marker,tag=allow_portal,distance=..2] run fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:air replace minecraft:nether_portal
