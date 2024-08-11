@@ -1,3 +1,6 @@
+# create a scoreboard that counts the deaths
+scoreboard objectives add deaths deathCount
+
 # set everybodys title times
 title @a times 0s 1s 0s
 

@@ -1,5 +1,6 @@
 {
   "values": [
-    "no_portals:tick"
+    "no_portals:tick",
+    "hunger_games:tick"
   ]
 }
