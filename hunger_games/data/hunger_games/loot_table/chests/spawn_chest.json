@@ -154,7 +154,8 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:leather_leggings"
+            "name": "minecraft:leather_leggings",
+            "weight": 1
           },
           {
             "type": "minecraft:item",

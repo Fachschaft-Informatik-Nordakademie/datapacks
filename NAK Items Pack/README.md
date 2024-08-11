@@ -26,3 +26,12 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 | ![Spirit auf den Snowdays](/NAK%20Items%20Pack/assets/minecraft/textures/item/spirit_auf_den_snowdays.png) | [Spirit auf den Snowdays](https://open.spotify.com/intl-de/track/7r4FzH5Wy2hY9gBKupoljP?si=d22b0f607fa845dd) | minecraft:music_disc_11 | 8 |
 | ![Nakler von der Reperbahn](/NAK%20Items%20Pack/assets/minecraft/textures/item/nakler_von_der_reperbahn.png) | [Nakler von der Reperbahn](https://open.spotify.com/intl-de/track/3Xccym0KqDb6lLh7GDNDOd?si=e03a5ef892b74302) | minecraft:music_disc_11 | 9 |
 | ![Supernakler](/NAK%20Items%20Pack/assets/minecraft/textures/item/supernakler.png) | [Supernakler](https://open.spotify.com/intl-de/track/5gV8KLUWGaY2k3UIxYkITr?si=2898734d8e87403c) | minecraft:music_disc_11 | 10 |
+
+## Install it on a Server
+In order to install this Resource Pack on a server you have to change your `server.properties` file.
+```
+require-resource-pack=true
+resource-pack=https://download.mc-packs.net/pack/f5d78048f4ce2620bb6d3261df1687a72fd3a3e3.zip
+resource-pack-sha1=f5d78048f4ce2620bb6d3261df1687a72fd3a3e3
+resource-pack-prompt="This resource pack is required for the custom NAK items"
+```
