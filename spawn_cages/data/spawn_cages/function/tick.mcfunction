@@ -7,4 +7,4 @@ execute if entity @a[nbt={SelectedItem:{id:"minecraft:debug_stick"}}] run execut
 execute if data storage spawn_cages {state:generated} as @a[tag=!was_locked] at @s run function spawn_cages:zz_lock/lock_player
 
 # tp the players back to the lock position if conditions are given
-execute if data storage spawn_cages {state:generated} as @a[scores={.lock_id=0..}] at @s unless entity @e[type=minecraft:marker,tag=lock,distance=..1] run function spawn_cages:zz_lock/lock_tp
+execute if data storage spawn_cages {state:generated} run function spawn_cages:zz_lock/lock_tp_loop

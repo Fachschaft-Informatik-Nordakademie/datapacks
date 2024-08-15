@@ -2,11 +2,13 @@
 tellraw @a "Loaded hunger_games datapack"
 
 # create a countdown scoreboard and initialise it with 31 sec
+scoreboard objectives remove .countdown
 scoreboard objectives add .countdown dummy
 scoreboard players set #1 .countdown 1
 scoreboard players set counter .countdown 31
 
 # create a border scoreboard and initialise it
+scoreboard objectives remove .border
 scoreboard objectives add .border dummy
 scoreboard players set next .border 2500
 scoreboard players set next_coords .border 1250

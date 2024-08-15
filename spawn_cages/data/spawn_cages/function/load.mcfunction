@@ -16,5 +16,5 @@ scoreboard objectives add .spawn_circle dummy
 kill @e[type=minecraft:armor_stand,tag=center]
 summon minecraft:armor_stand ~0.5 ~ ~0.5 {Marker:1b, Invisible:1b, Tags:["center"]}
 
-# create a scoreboard that handles the player locks
-scoreboard objectives add .lock_id dummy
+# reset the game state
+data remove storage minecraft:spawn_cages state

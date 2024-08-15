@@ -3,6 +3,9 @@
 # place the spawn center
 execute as @e[type=minecraft:armor_stand,tag=center] at @e[type=minecraft:armor_stand,tag=center] run place jigsaw spawn_cages:spawn/center_placer spawn_cages:center 7 ~ 0 ~
 
+# kill all items
+kill @e[type=item]
+
 # store the loop parameters in the .spawn_circle scoreboard
 scoreboard players set loop_start .spawn_circle 1
 execute store result score loop_finish .spawn_circle run data get storage minecraft:players total
