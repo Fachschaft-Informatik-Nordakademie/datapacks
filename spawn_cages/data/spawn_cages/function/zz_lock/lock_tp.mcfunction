@@ -1,10 +1,5 @@
-# TP the player to its assigned lock marker
-
-# set the .search to the lock_id
-scoreboard players operation .search .lock_id = @s .lock_id
-
 # rotate the marker like the player is rotated in order to keep the players rotation when teleported
-execute as @e[type=marker,tag=lock] at @e[type=marker,tag=lock] if score @s .lock_id = .search .lock_id rotated as @p run tp @s ~ ~ ~ ~ ~
+$execute as @n[type=minecraft:marker,tag=player_$(current_player_name)] at @s rotated as $(current_player_name) run tp @s ~ ~ ~ ~ ~
 
 # teleport the player
-execute as @e[type=marker,tag=lock] if score @s .lock_id = .search .lock_id run tp @p @s
+$execute as $(current_player_name) at @s unless entity @e[type=minecraft:marker, tag=player_$(current_player_name),distance=..1] run tp $(current_player_name) @n[type=marker,tag=player_$(current_player_name)]
