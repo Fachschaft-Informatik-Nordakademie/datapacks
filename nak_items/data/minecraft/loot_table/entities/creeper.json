@@ -49,7 +49,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 1,
+                "minecraft:custom_model_data": {
+                  "strings":["watch_out_for_elmo"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:watch_out_for_elmo"
                 }
@@ -66,7 +68,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 2,
+                "minecraft:custom_model_data": {
+                  "strings":["nak_fcking_nak"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:nak_fcking_nak"
                 }
@@ -83,7 +87,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 4,
+                "minecraft:custom_model_data": {
+                  "strings":["safe_nak"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:safe_nak"
                 }
@@ -100,7 +106,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 5,
+                "minecraft:custom_model_data": {
+                  "strings":["nakleraufstand"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:nakleraufstand"
                 }
@@ -117,7 +125,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 6,
+                "minecraft:custom_model_data": {
+                  "strings":["spirit_cowboys"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:spirit_cowboys"
                 }
@@ -134,7 +144,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 9,
+                "minecraft:custom_model_data": {
+                  "strings":["nakler_von_der_reperbahn"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:nakler_von_der_reperbahn"
                 }
@@ -151,7 +163,9 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 10,
+                "minecraft:custom_model_data": {
+                  "strings":["supernakler"]
+                },
                 "minecraft:jukebox_playable": {
                   "song": "nak_songs:supernakler"
                 }
