@@ -1,4 +1,4 @@
-# Spawn Cirlce Datapack [![Datapack Format - 48](https://img.shields.io/badge/Datapack_Format-48-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21](https://img.shields.io/badge/Minecraft-1.21-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
+# Spawn Cirlce Datapack [![Datapack Format - 61](https://img.shields.io/badge/Datapack_Format-61-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.4)
 Spawns a circle with spawn cages for every player listed in a data storage.
 This datapack also turns off the daylight circle and locks every player in their cage until they are released.
 
@@ -40,7 +40,7 @@ In order to use the Datapack you have to follow these steps:
     - ...
     - `playerN`:  <name_of_playerN>
 - `spawn_cages`: Stores information about the spawn cages.
-    - `state`: Stores the state of the spawn cages. Will be `generated` after the circle was generated. 
+    - `state`: Stores the state of the spawn cages. Will be `generated` after the circle was generated.
 
 ### Scoreboards
 - `.spawn_circle`: Used for spawning the spawn circle
@@ -63,5 +63,5 @@ In order to use the Datapack you have to follow these steps:
 - `player_<player name>`: Tag with the corresponding player name given top the cage_center markers. Allows the player to be changed after the circle got generated
 - `set_player_spawn`: Tag for all the cage_center markers that already set the spawnpoint of a player
 - `lock`: Tag for all markers that are used top lock the players.
-- `new_lock_marker`: Tag given to all lock markers when they are created. This Tag is removed once a player got assigned to the marker. 
+- `new_lock_marker`: Tag given to all lock markers when they are created. This Tag is removed once a player got assigned to the marker.
 - `was_locked`: Tag given to a player after being locked to a position once.

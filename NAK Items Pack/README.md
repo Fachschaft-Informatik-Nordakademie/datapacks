@@ -1,4 +1,4 @@
-# NAK Items Pack [![Resource Pack Format - 46](https://img.shields.io/badge/Resource_Pack_Format-46-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
+# NAK Items Pack [![Resource Pack Format - 46](https://img.shields.io/badge/Resource_Pack_Format-46-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.4)
 Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) datapack.
 
 ## Banner Patterns
