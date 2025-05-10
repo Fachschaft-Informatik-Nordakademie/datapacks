@@ -46,7 +46,7 @@
                 "stream": true
             }
         ]
-    }, 
+    },
     "nak_songs.die_nak_springt_auf_und_ab": {
         "sounds": [
             {
@@ -75,6 +75,46 @@
         "sounds": [
             {
                 "name": "nak_songs:records/supernakler",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.auf_gehts_nakler": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/auf_gehts_nakler",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.naklermodus": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/naklermodus",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.monster_spirit": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/monster_spirit",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.monster_spirit_remix": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/monster_spirit_remix",
+                "stream": true
+            }
+        ]
+    },
+    "nak_songs.wieder_unterwegs": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/wieder_unterwegs",
                 "stream": true
             }
         ]

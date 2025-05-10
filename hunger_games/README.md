@@ -1,4 +1,4 @@
-# Hunger Games
+# Hunger Games [![Datapack Format - 61](https://img.shields.io/badge/Datapack_Format-61-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.4)
 Adds all functionalitys for playing the hunger games mode played at the LAN Party.
 
 > [!NOTE]  
@@ -12,7 +12,7 @@ All players are automatically banned after they died.
 At the beginning of the game the world border is set to 2500 blocks. This is reduced by 600 blocks within 10min every 30min until it reaced 100 blocks. The players are warned when the world border starts shrinking and all players that are in the shrinking area have a red outline on there screen. The center of the game is always at 0/0.
 
 ## No nether portal
-The Datapack prevents all players from creating a nether portal except the center one. 
+The Datapack prevents all players from creating a nether portal except the center one.
 This is done by replacing every nether portal block around the players except if they are near a marker with an `allow_portal` tag. It can be disabled by setting `on` in the `.no_portal` scoreboard to 0. `/scoreboard players set on .no_portals 0`
 
 ## Chunk preloading
@@ -23,7 +23,7 @@ This function forceloads all the chunks wich needs a lot of server performance. 
 ## Loot Table
 This Datapack adds a loot table for the spawn chest that are placed in the spawn center.
 
-The loottable contains these items: 
+The loottable contains these items:
 
 | Item | Name | Count | Chance |
 |:----:|:-----|:-----:|------:|
@@ -54,7 +54,7 @@ Two of:
 | ![gravel](/docs/images/vanilla_items/gravel.png) | Gravel | 1 | 38.5% |
 One of:
 | ![suspicious stew](/docs/images/vanilla_items/suspicious_stew.png) | Suspicious Stew [(Shipwreck Effects)](https://minecraft.wiki/w/Suspicious_Stew#cite_note-suspicious-stew-1) | 1 | 100% |
-One of: 
+One of:
 | ![jukebox](/docs/images/vanilla_items/jukebox.png) | Jukebox | 0-3 | 100% |
 One of:
 | ![nak banner](/docs/images/NAK_banner16.png) | [NAK Banner](/nak_items/README.md) | 0-3 | 100% |

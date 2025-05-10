@@ -1,0 +1,117 @@
+{
+  "model": {
+    "type": "select",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/music_disc_11"
+    },
+    "cases": [
+      {
+        "when": "watch_out_for_elmo",
+        "model": {
+          "type": "model",
+          "model": "item/watch_out_for_elmo"
+        }
+      },
+      {
+        "when": "nak_fcking_nak",
+        "model": {
+          "type": "model",
+          "model": "item/nak_fcking_nak"
+        }
+      },
+      {
+        "when": "poolparty_im_schnee",
+        "model": {
+          "type": "model",
+          "model": "item/poolparty_im_schnee"
+        }
+      },
+      {
+        "when": "safe_nak",
+        "model": {
+          "type": "model",
+          "model": "item/safe_nak"
+        }
+      },
+      {
+        "when": "nakleraufstand",
+        "model": {
+          "type": "model",
+          "model": "item/nakleraufstand"
+        }
+      },
+      {
+        "when": "spirit_cowboys",
+        "model": {
+          "type": "model",
+          "model": "item/spirit_cowboys"
+        }
+      },
+      {
+        "when": "die_nak_springt_auf_und_ab",
+        "model": {
+          "type": "model",
+          "model": "item/die_nak_springt_auf_und_ab"
+        }
+      },
+      {
+        "when": "spirit_auf_den_snowdays",
+        "model": {
+          "type": "model",
+          "model": "item/spirit_auf_den_snowdays"
+        }
+      },
+      {
+        "when": "nakler_von_der_reperbahn",
+        "model": {
+          "type": "model",
+          "model": "item/nakler_von_der_reperbahn"
+        }
+      },
+      {
+        "when": "supernakler",
+        "model": {
+          "type": "model",
+          "model": "item/supernakler"
+        }
+      },
+      {
+        "when": "auf_gehts_nakler",
+        "model": {
+          "type": "model",
+          "model": "item/auf_gehts_nakler"
+        }
+      },
+      {
+        "when": "naklermodus",
+        "model": {
+          "type": "model",
+          "model": "item/naklermodus"
+        }
+      },
+      {
+        "when": "monster_spirit",
+        "model": {
+          "type": "model",
+          "model": "item/monster_spirit"
+        }
+      },
+      {
+        "when": "monster_spirit_remix",
+        "model": {
+          "type": "model",
+          "model": "item/monster_spirit_remix"
+        }
+      },
+      {
+        "when": "wieder_unterwegs",
+        "model": {
+          "type": "model",
+          "model": "item/wieder_unterwegs"
+        }
+      }
+    ]
+  }
+}
