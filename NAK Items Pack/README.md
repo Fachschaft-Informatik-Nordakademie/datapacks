@@ -15,7 +15,7 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 
 ## Songs
 | Icon | Song | Base Item | Custom Model Data Case|
-|:----:|:-----|:----------|------------------:|
+|:----:|:-----|:----------|:----------------------|
 | ![Watch out for Elmo](/NAK%20Items%20Pack/assets/minecraft/textures/item/watch_out_for_elmo.png) | [Watch out for Elmo](https://open.spotify.com/intl-de/track/6G2YmrDb49TXgwYigmnZK1?si=1b4a6261d1f64665) | minecraft:music_disc_11 | watch_out_for_elmo | 
 | ![NAK Fcking NAK](/NAK%20Items%20Pack/assets/minecraft/textures/item/nak_fcking_nak.png) | [NAK Fcking NAK](https://open.spotify.com/intl-de/track/6SEYs0xOo3AHqzNZbi4xlL?si=c987cca6323e4142) | minecraft:music_disc_11 | nak_fcking_nak |
 | ![Poolparty im Schnee](/NAK%20Items%20Pack/assets/minecraft/textures/item/poolparty_im_schnee.png) | [Poolparty im Schnee](https://open.spotify.com/intl-de/track/0kTU4Gx6qaNVLVaSC71qjV?si=83b536da03094f11) | minecraft:music_disc_11 | poolparty_im_schnee |
