@@ -1,4 +1,4 @@
-# NAK Items [![Datapack Format - 48](https://img.shields.io/badge/Datapack_Format-48-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21](https://img.shields.io/badge/Minecraft-1.21-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
+# NAK Items [![Datapack Format - 61](https://img.shields.io/badge/Datapack_Format-61-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.1)
 Adds a bunch of items that are related to the Nordakademie.
 
 > [!NOTE]  
