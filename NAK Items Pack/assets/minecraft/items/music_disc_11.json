@@ -76,6 +76,41 @@
           "type": "model",
           "model": "item/supernakler"
         }
+      },
+      {
+        "when": "auf_gehts_nakler",
+        "model": {
+          "type": "model",
+          "model": "item/auf_gehts_nakler"
+        }
+      },
+      {
+        "when": "naklermodus",
+        "model": {
+          "type": "model",
+          "model": "item/naklermodus"
+        }
+      },
+      {
+        "when": "monster_spirit",
+        "model": {
+          "type": "model",
+          "model": "item/monster_spirit"
+        }
+      },
+      {
+        "when": "monster_spirit_remix",
+        "model": {
+          "type": "model",
+          "model": "item/monster_spirit_remix"
+        }
+      },
+      {
+        "when": "wieder_unterwegs",
+        "model": {
+          "type": "model",
+          "model": "item/wieder_unterwegs"
+        }
       }
     ]
   }

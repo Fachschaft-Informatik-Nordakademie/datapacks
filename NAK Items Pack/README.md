@@ -16,7 +16,7 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 ## Songs
 | Icon | Song | Base Item | Custom Model Data Case|
 |:----:|:-----|:----------|:----------------------|
-| ![Watch out for Elmo](/NAK%20Items%20Pack/assets/minecraft/textures/item/watch_out_for_elmo.png) | [Watch out for Elmo](https://open.spotify.com/intl-de/track/6G2YmrDb49TXgwYigmnZK1?si=1b4a6261d1f64665) | minecraft:music_disc_11 | watch_out_for_elmo | 
+| ![Watch out for Elmo](/NAK%20Items%20Pack/assets/minecraft/textures/item/watch_out_for_elmo.png) | [Watch out for Elmo](https://open.spotify.com/intl-de/track/6G2YmrDb49TXgwYigmnZK1?si=1b4a6261d1f64665) | minecraft:music_disc_11 | watch_out_for_elmo |
 | ![NAK Fcking NAK](/NAK%20Items%20Pack/assets/minecraft/textures/item/nak_fcking_nak.png) | [NAK Fcking NAK](https://open.spotify.com/intl-de/track/6SEYs0xOo3AHqzNZbi4xlL?si=c987cca6323e4142) | minecraft:music_disc_11 | nak_fcking_nak |
 | ![Poolparty im Schnee](/NAK%20Items%20Pack/assets/minecraft/textures/item/poolparty_im_schnee.png) | [Poolparty im Schnee](https://open.spotify.com/intl-de/track/0kTU4Gx6qaNVLVaSC71qjV?si=83b536da03094f11) | minecraft:music_disc_11 | poolparty_im_schnee |
 | ![Safe NAK](/NAK%20Items%20Pack/assets/minecraft/textures/item/safe_nak.png) | [Safe NAK](https://open.spotify.com/intl-de/track/7qFoPsNCajePJCSE7yYgKM?si=0ae519b3ebc44d16) | minecraft:music_disc_11 | safe_nak |
@@ -26,6 +26,12 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 | ![Spirit auf den Snowdays](/NAK%20Items%20Pack/assets/minecraft/textures/item/spirit_auf_den_snowdays.png) | [Spirit auf den Snowdays](https://open.spotify.com/intl-de/track/7r4FzH5Wy2hY9gBKupoljP?si=d22b0f607fa845dd) | minecraft:music_disc_11 | spirit_auf_den_snowdays |
 | ![Nakler von der Reperbahn](/NAK%20Items%20Pack/assets/minecraft/textures/item/nakler_von_der_reperbahn.png) | [Nakler von der Reperbahn](https://open.spotify.com/intl-de/track/3Xccym0KqDb6lLh7GDNDOd?si=e03a5ef892b74302) | minecraft:music_disc_11 | nakler_von_der_reperbahn |
 | ![Supernakler](/NAK%20Items%20Pack/assets/minecraft/textures/item/supernakler.png) | [Supernakler](https://open.spotify.com/intl-de/track/5gV8KLUWGaY2k3UIxYkITr?si=2898734d8e87403c) | minecraft:music_disc_11 | supernakler |
+| ![Auf Gehts Nakler](/NAK%20Items%20Pack/assets/minecraft/textures/item/auf_gehts_nakler.png) | [Auf Gehts Nakler](https://open.spotify.com/intl-de/track/1Cmiwe22WeIr0BMZBhbC5C?si=e3319c89d92e4dce) | minecraft:music_disc_11 | auf_gehts_nakler |
+| ![Naklermodus](/NAK%20Items%20Pack/assets/minecraft/textures/item/naklermodus.png) | [Naklermodus](https://open.spotify.com/intl-de/track/7L0bVuJHxkFu8tj9xPNS7n?si=68ead50d941949cb) | minecraft:music_disc_11 | naklermodus |
+| ![Monster Spirit](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit.png) | [Monster Spirit](https://open.spotify.com/intl-de/track/3AEaArIdec63BBUBbF66oz?si=54d7978b1b934a74) | minecraft:music_disc_11 | monster_spirit |
+| ![Monster Spirit (Remix)](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit_remix.png) | [Monster Spirit (Remix)](https://open.spotify.com/intl-de/track/5zusjfBf8Ibh0DhhPJ8RsL?si=181fe1222158496a) | minecraft:music_disc_11 | monster_spirit_remix |
+| ![Wieder Unterwegs](/NAK%20Items%20Pack/assets/minecraft/textures/item/wieder_unterwegs.png) | [Wieder Unterwegs](https://open.spotify.com/intl-de/track/6cphzN91k0COGVWVdKN3MY?si=f90f674b24f1407c) | minecraft:music_disc_11 | wieder_unterwegs |
+
 
 ## Install it on a Server
 In order to install this Resource Pack on a server you have to change your `server.properties` file.

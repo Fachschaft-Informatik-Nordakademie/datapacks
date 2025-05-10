@@ -9,3 +9,8 @@ give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["die_nak_s
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["spirit_auf_den_snowdays"]},minecraft:jukebox_playable={song:"nak_songs:spirit_auf_den_snowdays"}]
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["nakler_von_der_reperbahn"]},minecraft:jukebox_playable={song:"nak_songs:nakler_von_der_reperbahn"}]
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["supernakler"]},minecraft:jukebox_playable={song:"nak_songs:supernakler"}]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["auf_gehts_nakler"]},minecraft:jukebox_playable={song:"nak_songs:auf_gehts_nakler"}]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["naklermodus"]},minecraft:jukebox_playable={song:"nak_songs:naklermodus"}]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["monster_spirit"]},minecraft:jukebox_playable={song:"nak_songs:monster_spirit"}]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["monster_spirit_remix"]},minecraft:jukebox_playable={song:"nak_songs:monster_spirit_remix"}]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["wieder_unterwegs"]},minecraft:jukebox_playable={song:"nak_songs:wieder_unterwegs"}]

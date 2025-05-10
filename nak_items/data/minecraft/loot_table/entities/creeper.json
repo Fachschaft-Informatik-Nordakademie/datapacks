@@ -172,6 +172,101 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["auf_gehts_nakler"]
+                },
+                "minecraft:jukebox_playable": {
+                  "song": "nak_songs:auf_gehts_nakler"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["naklermodus"]
+                },
+                "minecraft:jukebox_playable": {
+                  "song": "nak_songs:naklermodus"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["monster_spirit"]
+                },
+                "minecraft:jukebox_playable": {
+                  "song": "nak_songs:monster_spirit"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["monster_spirit_remix"]
+                },
+                "minecraft:jukebox_playable": {
+                  "song": "nak_songs:monster_spirit_remix"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["wieder_unterwegs"]
+                },
+                "minecraft:jukebox_playable": {
+                  "song": "nak_songs:wieder_unterwegs"
+                }
+              }
+            }
+          ]
         }
       ],
       "conditions": [

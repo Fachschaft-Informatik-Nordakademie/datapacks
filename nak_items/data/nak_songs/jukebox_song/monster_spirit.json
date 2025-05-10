@@ -1,0 +1,8 @@
+{
+    "comparator_output": 13,
+    "length_in_seconds": 198,
+    "description": "Monster Spirit",
+    "sound_event": {
+        "sound_id": "nak_songs:nak_songs.monster_spirit"
+    }
+}
