@@ -37,7 +37,7 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 In order to install this Resource Pack on a server you have to change your `server.properties` file.
 ```
 require-resource-pack=true
-resource-pack=https://download.mc-packs.net/pack/f5d78048f4ce2620bb6d3261df1687a72fd3a3e3.zip
-resource-pack-sha1=f5d78048f4ce2620bb6d3261df1687a72fd3a3e3
+resource-pack=https://download.mc-packs.net/pack/a78b72b24f94b6ecc9b7e90ce0929a9af63dc9ec.zip
+resource-pack-sha1=a78b72b24f94b6ecc9b7e90ce0929a9af63dc9ec
 resource-pack-prompt="This resource pack is required for the custom NAK items"
 ```
