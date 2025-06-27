@@ -52,9 +52,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["watch_out_for_elmo"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:watch_out_for_elmo"
-                }
+                "minecraft:jukebox_playable": "nak_songs:watch_out_for_elmo"
               }
             }
           ]
@@ -71,9 +69,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["nak_fcking_nak"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:nak_fcking_nak"
-                }
+                "minecraft:jukebox_playable": "nak_songs:nak_fcking_nak"
               }
             }
           ]
@@ -90,9 +86,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["safe_nak"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:safe_nak"
-                }
+                "minecraft:jukebox_playable": "nak_songs:safe_nak"
               }
             }
           ]
@@ -109,9 +103,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["nakleraufstand"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:nakleraufstand"
-                }
+                "minecraft:jukebox_playable": "nak_songs:nakleraufstand"
               }
             }
           ]
@@ -128,9 +120,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["spirit_cowboys"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:spirit_cowboys"
-                }
+                "minecraft:jukebox_playable": "nak_songs:spirit_cowboys"
               }
             }
           ]
@@ -147,9 +137,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["nakler_von_der_reperbahn"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:nakler_von_der_reperbahn"
-                }
+                "minecraft:jukebox_playable": "nak_songs:nakler_von_der_reperbahn"
               }
             }
           ]
@@ -166,9 +154,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["supernakler"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:supernakler"
-                }
+                "minecraft:jukebox_playable": "nak_songs:supernakler"
               }
             }
           ]
@@ -185,9 +171,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["auf_gehts_nakler"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:auf_gehts_nakler"
-                }
+                "minecraft:jukebox_playable": "nak_songs:auf_gehts_nakler"
               }
             }
           ]
@@ -204,9 +188,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["naklermodus"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:naklermodus"
-                }
+                "minecraft:jukebox_playable": "nak_songs:naklermodus"
               }
             }
           ]
@@ -223,9 +205,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["monster_spirit"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:monster_spirit"
-                }
+                "minecraft:jukebox_playable": "nak_songs:monster_spirit"
               }
             }
           ]
@@ -242,9 +222,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["monster_spirit_remix"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:monster_spirit_remix"
-                }
+                "minecraft:jukebox_playable": "nak_songs:monster_spirit_remix"
               }
             }
           ]
@@ -261,9 +239,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["wieder_unterwegs"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:wieder_unterwegs"
-                }
+                "minecraft:jukebox_playable": "nak_songs:wieder_unterwegs"
               }
             }
           ]
