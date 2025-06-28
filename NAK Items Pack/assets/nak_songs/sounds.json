@@ -118,5 +118,13 @@
                 "stream": true
             }
         ]
+    },
+    "nak_songs.vier_aus_fuenf": {
+        "sounds": [
+            {
+                "name": "nak_songs:records/vier_aus_fuenf",
+                "stream": true
+            }
+        ]
     }
 }

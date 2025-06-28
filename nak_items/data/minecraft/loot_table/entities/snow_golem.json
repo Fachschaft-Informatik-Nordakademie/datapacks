@@ -37,9 +37,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["poolparty_im_schnee"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:poolparty_im_schnee"
-                }
+                "minecraft:jukebox_playable": "nak_songs:poolparty_im_schnee"
               }
             }
           ]
@@ -56,9 +54,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["spirit_auf_den_snowdays"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:spirit_auf_den_snowdays"
-                }
+                "minecraft:jukebox_playable": "nak_songs:spirit_auf_den_snowdays"
               }
             }
           ]

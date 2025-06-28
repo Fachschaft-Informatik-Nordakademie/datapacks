@@ -111,6 +111,13 @@
           "type": "model",
           "model": "item/wieder_unterwegs"
         }
+      },
+      {
+        "when": "vier_aus_fuenf",
+        "model": {
+          "type": "model",
+          "model": "item/vier_aus_fuenf"
+        }
       }
     ]
   }

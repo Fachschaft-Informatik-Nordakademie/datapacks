@@ -92,9 +92,7 @@
                 "minecraft:custom_model_data": {
                   "strings":["die_nak_springt_auf_und_ab"]
                 },
-                "minecraft:jukebox_playable": {
-                  "song": "nak_songs:die_nak_springt_auf_und_ab"
-                }
+                "minecraft:jukebox_playable": "nak_songs:die_nak_springt_auf_und_ab"
               }
             }
           ]
