@@ -1,4 +1,4 @@
-# NAK Items [![Datapack Format - 61](https://img.shields.io/badge/Datapack_Format-61-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.4)
+# NAK Items [![Datapack Format - 80](https://img.shields.io/badge/Datapack_Format-80-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.6](https://img.shields.io/badge/Minecraft-1.21.6-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.6)
 Adds a bunch of items that are related to the Nordakademie.
 
 > [!NOTE]  
@@ -38,6 +38,7 @@ This datapack adds all the NAK songs wich where created by the NAK Sport team.
 | ![Monster Spirit](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit.png) | [Monster Spirit](https://open.spotify.com/intl-de/track/3AEaArIdec63BBUBbF66oz?si=54d7978b1b934a74) | 3:18 | 13 | Drops when a Creeper is killed by a Skeleton |
 | ![Monster Spirit (Remix)](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit_remix.png) | [Monster Spirit (Remix)](https://open.spotify.com/intl-de/track/5zusjfBf8Ibh0DhhPJ8RsL?si=181fe1222158496a) | 2:49 | 14 | Drops when a Creeper is killed by a Skeleton |
 | ![Wieder Unterwegs](/NAK%20Items%20Pack/assets/minecraft/textures/item/wieder_unterwegs.png) | [Wieder Unterwegs](https://open.spotify.com/intl-de/track/6cphzN91k0COGVWVdKN3MY?si=f90f674b24f1407c) | 2:48 | 15 | Drops when a Creeper is killed by a Skeleton |
+| ![4 Aus 5](/NAK%20Items%20Pack/assets/minecraft/textures/item/4_aus_5.png) | [4 Aus 5](https://open.spotify.com/intl-de/track/5ZWqBz60QLOouhiJoXqqaN?si=10415cdd6b9a43bb) | 2:27 | 1 | Drops when a Creeper is killed by a Skeleton |
 
 You can get all the Songs at once by running the command `/function nak_songs:give_all`
 

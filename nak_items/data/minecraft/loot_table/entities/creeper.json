@@ -243,6 +243,23 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": {
+                  "strings":["vier_aus_fuenf"]
+                },
+                "minecraft:jukebox_playable": "nak_songs:vier_aus_fuenf"
+              }
+            }
+          ]
         }
       ],
       "conditions": [

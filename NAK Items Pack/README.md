@@ -1,4 +1,4 @@
-# NAK Items Pack [![Resource Pack Format - 46](https://img.shields.io/badge/Resource_Pack_Format-46-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.4](https://img.shields.io/badge/Minecraft-1.21.4-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.4)
+# NAK Items Pack [![Resource Pack Format - 63](https://img.shields.io/badge/Resource_Pack_Format-63-2ea44f)](https://minecraft.wiki/w/Data_pack) [![Minecraft - 1.21.6](https://img.shields.io/badge/Minecraft-1.21.6-2ea44f)](https://minecraft.wiki/w/Java_Edition_1.21.6)
 Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) datapack.
 
 ## Banner Patterns
@@ -37,7 +37,7 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 In order to install this Resource Pack on a server you have to change your `server.properties` file.
 ```
 require-resource-pack=true
-resource-pack=https://download.mc-packs.net/pack/a78b72b24f94b6ecc9b7e90ce0929a9af63dc9ec.zip
-resource-pack-sha1=a78b72b24f94b6ecc9b7e90ce0929a9af63dc9ec
+resource-pack=https://download.mc-packs.net/pack/492598143545d1a367ceaf74f8d10da8b7b336c9.zip
+resource-pack-sha1=492598143545d1a367ceaf74f8d10da8b7b336c9
 resource-pack-prompt="This resource pack is required for the custom NAK items"
 ```

@@ -14,3 +14,4 @@ give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["naklermod
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["monster_spirit"]},minecraft:jukebox_playable="nak_songs:monster_spirit"]
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["monster_spirit_remix"]},minecraft:jukebox_playable="nak_songs:monster_spirit_remix"]
 give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["wieder_unterwegs"]},minecraft:jukebox_playable="nak_songs:wieder_unterwegs"]
+give @s minecraft:music_disc_11[minecraft:custom_model_data={strings:["vier_aus_fuenf"]},minecraft:jukebox_playable="nak_songs:vier_aus_fuenf"]
