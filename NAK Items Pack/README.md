@@ -31,6 +31,7 @@ Resource Pack for all the NAK Items added through the [nak_items](/nak_items/) d
 | ![Monster Spirit](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit.png) | [Monster Spirit](https://open.spotify.com/intl-de/track/3AEaArIdec63BBUBbF66oz?si=54d7978b1b934a74) | minecraft:music_disc_11 | monster_spirit |
 | ![Monster Spirit (Remix)](/NAK%20Items%20Pack/assets/minecraft/textures/item/monster_spirit_remix.png) | [Monster Spirit (Remix)](https://open.spotify.com/intl-de/track/5zusjfBf8Ibh0DhhPJ8RsL?si=181fe1222158496a) | minecraft:music_disc_11 | monster_spirit_remix |
 | ![Wieder Unterwegs](/NAK%20Items%20Pack/assets/minecraft/textures/item/wieder_unterwegs.png) | [Wieder Unterwegs](https://open.spotify.com/intl-de/track/6cphzN91k0COGVWVdKN3MY?si=f90f674b24f1407c) | minecraft:music_disc_11 | wieder_unterwegs |
+| ![4 Aus 5](/NAK%20Items%20Pack/assets/minecraft/textures/item/vier_aus_fuenf.png) | [4 Aus 5](https://open.spotify.com/intl-de/track/5ZWqBz60QLOouhiJoXqqaN?si=10415cdd6b9a43bb) | minecraft:music_disc_11 | vier_aus_fuenf |
 
 
 ## Install it on a Server
